@@ -31,3 +31,22 @@ charts/*.tgz
 *.swp
 .idea/
 .vscode/
+# Add these at the very end
+
+# Terraform sensitive
+*.auto.tfvars
+terraform.tfvars
+
+# Ansible / SSH
+*.pem
+id_rsa*
+*.key
+
+# Documentation evidence (add screenshots later)
+docs/EVIDENCE/*.png
+docs/EVIDENCE/*.jpg
+docs/EVIDENCE/*.jpeg
+
+# Temporary files
+*.tmp
+*.bak
